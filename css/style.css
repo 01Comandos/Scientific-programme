@@ -1,0 +1,197 @@
+
+body{
+	font-size: 16px;
+}
+
+h1{
+	color: #10a0df;
+	font-weight: bold;
+	text-align: center;
+}
+
+.browser{
+	text-align: center;
+}
+
+.buscador{
+	background: #f3f2f2;
+	border:0;
+	color: #535353;
+	text-indent: 0.7em;
+	width: 50em;
+	height: 3em;
+}
+
+.btn.btn-default{
+	border: none;
+	border-radius: 0;
+	width: 4em;
+	height: 3.4em;
+	margin-left: 0.3em;
+}
+
+.glyphicon-search{
+	color: #535353;
+	font-size: 2em;
+}
+
+.btn.btn-default:hover{
+	border: 2px solid #42abe3;
+	border-radius: 3px;
+	background: #ffffff;
+}
+
+.glyphicon-search:hover{
+	color: #42abe3;
+}
+
+
+.select-colors{
+	background: #f7f7f7;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: center;
+	position: relative;
+}
+
+.colores{
+	margin-right: 1em;
+	display: inline-block;
+}
+
+.colores figure{
+	border: 3px solid #ffffff;
+	box-shadow: 1.364px 1.463px 0px 0px rgba(0, 0, 0, 0.22);
+	width: 3.5em;
+	height: 2em;
+	z-index: 3;
+}
+
+.actividad{
+	background: #ffffff;
+	box-shadow: 1.3px 1.4px 0px 0px rgba(0,0,0,0.22);
+	border-radius: 5px;
+	height: 3em;
+	width: 5em;
+	z-index: 4;
+}
+
+
+
+
+#actividad{
+	color: #313131;
+	font-size: 0.7em;
+	font-family: Arial;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* COLORES */
+#Symposium{
+	background: #e01783;
+}
+
+#Workshop{
+	background: #70d0ec;
+}
+
+#Forum{
+	background: #b0e3e4;
+}
+
+#master{
+	background: #db8925;
+}
+
+#courses{
+	background: #f55197;
+}
+
+#test-session{
+	background: #ff5c36;
+}
+
+#focus-session{
+	background: #f8bf00;
+}
+
+#controversy{
+	background: #4a9463;
+}
+
+#spotlights{
+	background: #8094dd;
+}
+
+#new-sessions{
+	background: #ea6953;
+}
+
+#free{
+	background: #b150c5;
+}
+
+#live-courses{
+	background: #3cbfae;
+}
+
+#subspeciality{
+	background: #76881e;
+}
+
+#plenary-lectures{
+	background: #415464;
+}
+
+#AGM{
+	background: #bbe094;
+}
+
+#satellite-symposio{
+	background: #9d1e65;
+}
+
+#meet-the-experts{
+	background: #a292b3;
+}
+
+/* FIN COLORES */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** BOTONES DE DESCARGAS */
+.download{
+	text-align: center;
+	padding: 2em 0em;
+}
+.download-button{
+	border: 2px solid #2aa6ff;
+	border-radius: 5px;
+	color: #2aa6ff;
+	font-weight: bold;
+	padding: 0.7em;
+	text-align: center;
+}
+
+.download-button:hover{
+	background: #2aa6ff;
+	color: #ffffff;
+	text-decoration: none;
+}
