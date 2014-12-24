@@ -13,73 +13,116 @@ h1{
 	text-align: center;
 }
 
-.buscador{
+.search{
 	background: #f3f2f2;
 	border:0;
 	color: #535353;
+	display: inline-block;
+	font-weight: bold;
+	font-family: Arial;
 	text-indent: 0.7em;
+	vertical-align: top;
 	width: 50em;
 	height: 3em;
 }
 
-.btn.btn-default{
-	border: none;
-	border-radius: 0;
-	width: 4em;
-	height: 3.4em;
-	margin-left: 0.3em;
+/* PLACEHOLDER SEARCH */
+::-webkit-input-placeholder{
+	font-weight: bold;
+	font-family: Arial;
+	letter-spacing: 1px;
 }
 
-.glyphicon-search{
+:-moz-placeholder { /* Firefox 18- */
+	font-weight: bold;
+	font-family: Arial;  
+	letter-spacing: 1px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+	font-weight: bold;
+	font-family: Arial;
+	letter-spacing: 1px;  
+}
+
+:-ms-input-placeholder {  
+	font-weight: bold;
+	font-family: Arial;
+	letter-spacing: 1px;
+}
+
+/* END PLACEHOLDER */
+
+
+span.glyphicon.glyphicon-search{
+	border: 2px solid transparent;
 	color: #535353;
 	font-size: 2em;
+	width: 2em;
+	height: 1.5em;
+	padding: 6px 0;
 }
 
-.btn.btn-default:hover{
-	border: 2px solid #42abe3;
-	border-radius: 3px;
-	background: #ffffff;
-}
-
-.glyphicon-search:hover{
-	color: #42abe3;
+span.glyphicon.glyphicon-search:hover{
+	background: #2aa6ff;
+	color: #ffffff;
 }
 
 
 .select-colors{
 	background: #f7f7f7;
-	padding-top: 1em;
-	padding-bottom: 1em;
+	padding-top: 2em;
+	padding-bottom: 2em;
 	text-align: center;
 	position: relative;
+
 }
 
-.colores{
+.row-two-colors{
+	margin-top: 1.5em;
+}
+
+.colors{
 	margin-right: 1em;
 	display: inline-block;
+	vertical-align: top;
 }
 
-.colores figure{
+.colors figure{
 	border: 3px solid #ffffff;
 	box-shadow: 1.364px 1.463px 0px 0px rgba(0, 0, 0, 0.22);
 	width: 3.5em;
 	height: 2em;
-	z-index: 3;
+	margin-left: 0.7em;
+	z-index: 4;
+	position: relative;
 }
 
-.actividad{
+.activity{
 	background: #ffffff;
 	box-shadow: 1.3px 1.4px 0px 0px rgba(0,0,0,0.22);
 	border-radius: 5px;
-	height: 3em;
+	height: 3.2em;
 	width: 5em;
-	z-index: 4;
+	z-index: 3;
+	
+	margin-top: -1em;
+	position: relative;
+}
+
+.activity span{
+	display: block;
+	color: #313131;
+	font-size: 0.7em;
+	font-family: Arial;
+	font-weight: bold;
+	padding-top: 1.9em;
+	line-height: 1.2;
 }
 
 
 
-
-#actividad{
+#activity{
 	color: #313131;
 	font-size: 0.7em;
 	font-family: Arial;
@@ -161,9 +204,29 @@ h1{
 
 
 
+/** CALENDAR **/
+.calendar{
+	padding-top: 2em;
+}
 
 
+/** Tag Days **/
+.tag-days{
+	background: #0067b1;
+	color: #ffffff;
+	font-size: 0.9em;
+	font-family: Arial;
+	font-weight: bold;
+	padding: 0.8em 0.5em;
+	text-align: center;
+	margin-right: 1em;
 
+	line-height: 1.2;
+}
+
+.tag-days:active , .tag-days:hover{
+	background: #2aa6ff;
+}
 
 
 
