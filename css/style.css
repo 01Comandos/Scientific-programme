@@ -120,8 +120,6 @@ span.glyphicon.glyphicon-search:hover{
 	line-height: 1.2;
 }
 
-
-
 #activity{
 	color: #313131;
 	font-size: 0.7em;
@@ -217,10 +215,9 @@ span.glyphicon.glyphicon-search:hover{
 	font-size: 0.9em;
 	font-family: Arial;
 	font-weight: bold;
-	padding: 0.8em 0.5em;
+	padding: 0.8em 0.4em;
 	text-align: center;
 	margin-right: 1em;
-
 	line-height: 1.2;
 }
 
@@ -228,10 +225,145 @@ span.glyphicon.glyphicon-search:hover{
 	background: #2aa6ff;
 }
 
+.hours-calendar{
+	position: relative;
+}
 
+.hours-calendar, .rooms{
+	background: #f6f5f5;
+}
 
+.rooms{
+	padding-bottom: 2em;
+}
 
+.controls-calendar-right{
+	float: right;
+	position: absolute;
+	right: 6.5em;
+	top: 0;
+}
+.controls-calendar-left a{
+	background: #c9c9c9;
+	color: #ffffff;
+	display: inline-block;
+	padding: 0.5em 0.8em;
+	float: left;
 
+	margin-left: 1em;
+}
+
+.controls-calendar-right a{
+	background: #c9c9c9;
+	color: #ffffff;
+	display: inline-block;
+	padding: 0.5em 0.8em;
+}
+
+.controls-calendar-left a:hover, .controls-calendar-right a:hover{
+	background: #2aa6ff;
+	color: #ffffff;
+}
+
+.hours{
+	background: #e5e5e5;
+	color: #000000;
+	display: inline-block;
+	padding: 0.5em 0.5em;
+	text-align: center;
+
+	border-bottom: 4px solid #d2d0d0;
+}
+
+.hours span{
+	font-weight: bold;
+	font-size: 0.8em;
+}
+
+.row-new{
+	margin-top: 1em;
+}
+
+.room{
+	background: #d2d0d0;
+	color: #000000;
+	padding: 0.5em 0.3em;
+	text-align: center;
+	font-family: Arial;
+	font-size: 0.8em;
+	font-weight: bold;
+
+	margin-top: 1.5em;
+	border-right: 0.6em solid #f6f5f5;
+}
+
+.activid, .h-marg{
+	margin-left: 0.9em;
+}
+
+.activ{
+	background: #ffffff;
+	text-align: center;
+	padding: 0.5em 0.5em;
+	height: 5em;
+}
+
+.activity-1{
+	border: 2px solid #a292b3;
+	width: 25.4em;
+}
+
+.activity-2{
+	border: 2px solid #f55197;
+	width: 12.15em;
+
+}
+
+.activity-3{
+	border: 2px solid #b150c5;
+	width: 12.15em;
+}
+
+.activity-4{
+	border: 2px solid #00afab;
+	width: 12.15em;
+}
+
+.activity-5{
+	border: 2px solid #8094dd;
+	width: 25.4em;
+}
+
+.activity-6{
+	border: 2px solid #76881e;
+	width: 12.15em;
+}
+
+.activity-7{
+	border: 2px solid #415464;
+	width: 12.15em;
+}
+
+.activity-8{
+	border: 2px solid #db8925;
+	width: 12.15em;
+}
+
+.activity-9{
+	border: 2px solid #70d0ec;
+	width: 38.3em;
+}
+
+.activity-10{
+	border: 2px solid #4a9463;
+	width: 25.4em;
+}
+
+.activ span{
+	color: #434343;
+	font-size: 0.9em;
+	line-height: 0.5;
+}
 
 
 
@@ -242,15 +374,17 @@ span.glyphicon.glyphicon-search:hover{
 /** BOTONES DE DESCARGAS */
 .download{
 	text-align: center;
-	padding: 2em 0em;
+	padding: 3em 0;
 }
 .download-button{
 	border: 2px solid #2aa6ff;
 	border-radius: 5px;
 	color: #2aa6ff;
 	font-weight: bold;
-	padding: 0.7em;
+	padding: 1em;
 	text-align: center;
+
+	margin-right: 0.8em;
 }
 
 .download-button:hover{
