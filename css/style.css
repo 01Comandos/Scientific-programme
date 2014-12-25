@@ -1,4 +1,17 @@
 
+@font-face {
+    font-family: 'Josefina';
+    src: url('../fonts/JosefinSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bariol';
+    src: url('../fonts/Bariol_Regular.otf') format('truetype');
+}
+
+
+/******************************************************************/
+
 body{
 	font-size: 16px;
 }
@@ -366,7 +379,126 @@ span.glyphicon.glyphicon-search:hover{
 }
 
 
+/** MODAL **/
 
+div.modal-content{
+	border-radius: 0;
+	margin-top: 9em;
+	position: relative;
+}
+
+.button-close{
+	background: none;
+	border: 0;
+	color: #ffffff;
+	position: absolute;
+	top: -1em;
+	right: -6em;
+}
+
+span.glyphicon.glyphicon-remove{
+	font-size: 3em;
+	font-style: normal;
+	padding: 0.2em 0.2em;
+}
+
+.button-close:hover{
+	background: none;
+	border: 0;
+	color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.date-days{
+	color: #aaaaaa;
+	font-family: 'Josefina';
+	font-size: 12px;
+	margin-left: 2em;
+}
+
+.title-activity-modal{
+	background: #8094dd;
+	color: #ffffff;
+	font-family: Arial;
+	font-style: normal;
+	text-align: center;
+	padding: 0.5em 0;
+}
+
+.speaker-title{
+	display: block;
+	font-family: 'Bariol';
+	text-align: center;
+	margin-top: 1.5em;
+}
+
+.tag-prof{
+	background: #2aa6ff;
+	color: #ffffff;
+	font-family: 'Bariol';
+	padding: 0.3em 0.3em;
+	text-align: center;
+}
+
+.modal-detail-title{
+	background: #ff6b6b;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: 'Arial';
+	text-align: center;
+	padding: 0.8em 0.6em;
+	margin-top: 1em;
+}
+
+.act-spk{
+	padding: 1.5em 0;
+}
+
+.inter-speaker{
+	background: #eeeeee;
+}
+
+.speaker{
+	text-align: center;
+	font-family: 'Bariol';
+}
+
+.tag-activity-for-hours{
+	background: #969f8e;
+	padding-left: 0.4em;
+	padding-right: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.hours-activity-modal{
+	color: #ffffff;
+	display: block;
+	font-family: Arial;
+	font-weight: bold;
+	text-align: center;
+	padding: 0.5em 0;
+}
+
+.name-activity-modal{
+	background: #ffffff;
+	color: #535353;
+	font-family: 'Arial';
+	font-style: normal;
+	font-size: 0.9em;
+	padding: 0.5em 0.5em;
+	text-align: center;
+}
 
 
 
