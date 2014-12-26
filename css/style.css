@@ -646,6 +646,29 @@ div.modal-content{
 		border-right: 3px solid #ffffff;
 	}
 
+	.title-activity-modal{
+		width: 93%;
+		margin-left: 1.4em;
+	}
+
+	#tag-prof{
+		margin-left: 6.5em;
+	}
+
+	.modal-detail-title{
+		margin-left: 3em;
+	}
+	
+	.speaker{
+		margin-bottom: 0.7em;
+	}
+
+	.tag-activity-for-hours{
+		margin-left: 27%;
+	}
+
+	
+
 	.download-button{		
 		padding: 0.7em 0.7em;
 		margin-bottom: 1em;
@@ -676,4 +699,24 @@ div.modal-content{
 		margin-right: 0;
 	}
 
+	.title-activity-modal{
+		width: 93%;
+		margin-left: 1.3em;
+	}
+
+	#tag-prof{
+		margin-left: 6em;
+	}
+
+	.modal-detail-title{
+		margin-left: 3em;
+	}
+	
+	.speaker{
+		margin-bottom: 0.7em;
+	}
+
+	.tag-activity-for-hours{
+		margin-left: 11em;
+	}
 }
