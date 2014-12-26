@@ -22,6 +22,10 @@ h1{
 	text-align: center;
 }
 
+.img-responsive img{
+	text-align: center;
+}
+
 .browser{
 	text-align: center;
 }
@@ -99,6 +103,8 @@ span.glyphicon.glyphicon-search:hover{
 	margin-right: 1em;
 	display: inline-block;
 	vertical-align: top;
+
+	margin-top: 1em;
 }
 
 .colors figure{
@@ -250,20 +256,18 @@ span.glyphicon.glyphicon-search:hover{
 	padding-bottom: 2em;
 }
 
-.controls-calendar-right{
+/*.controls-calendar-right{
 	float: right;
 	position: absolute;
 	right: 6.5em;
 	top: 0;
-}
+}*/
 .controls-calendar-left a{
 	background: #c9c9c9;
 	color: #ffffff;
 	display: inline-block;
 	padding: 0.5em 0.8em;
-	float: left;
-
-	margin-left: 1em;
+	float: right;
 }
 
 .controls-calendar-right a{
@@ -281,10 +285,8 @@ span.glyphicon.glyphicon-search:hover{
 .hours{
 	background: #e5e5e5;
 	color: #000000;
-	display: inline-block;
 	padding: 0.5em 0.5em;
 	text-align: center;
-
 	border-bottom: 4px solid #d2d0d0;
 }
 
@@ -307,15 +309,16 @@ span.glyphicon.glyphicon-search:hover{
 	font-weight: bold;
 
 	margin-top: 1.5em;
-	border-right: 0.6em solid #f6f5f5;
+	/*border-right: 0.6em solid #f6f5f5;*/
 }
 
 .activid, .h-marg{
-	margin-left: 0.9em;
+	/*margin-left: 0.9em;*/
 }
 
 .activ{
 	background: #ffffff;
+	color: #434343;
 	text-align: center;
 	padding: 0.5em 0.5em;
 	height: 5em;
@@ -323,13 +326,27 @@ span.glyphicon.glyphicon-search:hover{
 
 .activity-1{
 	border: 2px solid #a292b3;
+	border-radius: 0;
 	width: 25.4em;
+}
+
+.activity-1:hover{
+	background: #a292b3;
+	border: 2px solid transparent;
+	color: #ffffff;
+	cursor: pointer;
 }
 
 .activity-2{
 	border: 2px solid #f55197;
 	width: 12.15em;
+}
 
+.activity-2:hover{
+	background: #f55197;
+	border: 2px solid transparent;
+	color: #ffffff;
+	cursor: pointer;
 }
 
 .activity-3{
@@ -337,9 +354,23 @@ span.glyphicon.glyphicon-search:hover{
 	width: 12.15em;
 }
 
+.activity-3:hover{
+	background: #b150c5;
+	border: 2px solid transparent;
+	color: #ffffff;
+	cursor: pointer;
+}
+
 .activity-4{
 	border: 2px solid #00afab;
 	width: 12.15em;
+}
+
+.activity-4:hover{
+	background: #00afab;
+	border: 2px solid transparent;
+	color: #ffffff;
+	cursor: pointer;
 }
 
 .activity-5{
@@ -347,9 +378,23 @@ span.glyphicon.glyphicon-search:hover{
 	width: 25.4em;
 }
 
+.activity-5:hover{
+	background: #8094dd;
+	border: 2px solid transparent;
+	color: #ffffff;
+	cursor: pointer;
+}
+
 .activity-6{
 	border: 2px solid #76881e;
 	width: 12.15em;
+}
+
+.activity-6:hover{
+	background: #76881e;
+	border: 2px solid transparent;
+	color: #ffffff;
+	cursor: pointer;
 }
 
 .activity-7{
@@ -357,9 +402,23 @@ span.glyphicon.glyphicon-search:hover{
 	width: 12.15em;
 }
 
+.activity-7:hover{
+	background: #415464;
+	border: 2px solid transparent;
+	color: #ffffff;
+	cursor: pointer;
+}
+
 .activity-8{
 	border: 2px solid #db8925;
 	width: 12.15em;
+}
+
+.activity-8:hover{
+	background: #db8925;
+	border: 2px solid transparent;
+	color: #ffffff;
+	cursor: pointer;
 }
 
 .activity-9{
@@ -367,13 +426,26 @@ span.glyphicon.glyphicon-search:hover{
 	width: 38.3em;
 }
 
+.activity-9:hover{
+	background: #70d0ec;
+	border: 2px solid transparent;
+	color: #ffffff;
+	cursor: pointer;
+}
+
 .activity-10{
 	border: 2px solid #4a9463;
 	width: 25.4em;
 }
 
+.activity-10:hover{
+	background: #4a9463;
+	border: 2px solid transparent;
+	color: #ffffff;
+	cursor: pointer;
+}
+
 .activ span{
-	color: #434343;
 	font-size: 0.9em;
 	line-height: 0.5;
 }
@@ -383,7 +455,7 @@ span.glyphicon.glyphicon-search:hover{
 
 div.modal-content{
 	border-radius: 0;
-	margin-top: 9em;
+	margin-top: 7em;
 	position: relative;
 }
 
@@ -396,10 +468,8 @@ div.modal-content{
 	right: -6em;
 }
 
-span.glyphicon.glyphicon-remove{
-	font-size: 3em;
-	font-style: normal;
-	padding: 0.2em 0.2em;
+#close-modal{
+	margin-top: 0.8em;
 }
 
 .button-close:hover{
@@ -407,18 +477,6 @@ span.glyphicon.glyphicon-remove{
 	border: 0;
 	color: #ffffff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .date-days{
 	color: #aaaaaa;
@@ -434,6 +492,9 @@ span.glyphicon.glyphicon-remove{
 	font-style: normal;
 	text-align: center;
 	padding: 0.5em 0;
+
+	width: 95%;
+	margin-left: 1.5em;
 }
 
 .speaker-title{
@@ -443,12 +504,16 @@ span.glyphicon.glyphicon-remove{
 	margin-top: 1.5em;
 }
 
-.tag-prof{
+#tag-prof{
 	background: #2aa6ff;
+	display: block;
 	color: #ffffff;
 	font-family: 'Bariol';
 	padding: 0.3em 0.3em;
 	text-align: center;
+	width: 5em;
+
+	margin-left: 11em;
 }
 
 .modal-detail-title{
@@ -459,10 +524,16 @@ span.glyphicon.glyphicon-remove{
 	text-align: center;
 	padding: 0.8em 0.6em;
 	margin-top: 1em;
+
+	width: 85%;
+	margin-left: 4em;
 }
 
 .act-spk{
 	padding: 1.5em 0;
+
+	width: 100%;
+	margin-left: 0em;
 }
 
 .inter-speaker{
@@ -479,6 +550,10 @@ span.glyphicon.glyphicon-remove{
 	padding-left: 0.4em;
 	padding-right: 0.5em;
 	padding-bottom: 0.5em;
+
+	width: 14em;
+	text-align: center;
+	margin-left: 4em;
 }
 
 .hours-activity-modal{
@@ -492,6 +567,7 @@ span.glyphicon.glyphicon-remove{
 
 .name-activity-modal{
 	background: #ffffff;
+	display: block;
 	color: #535353;
 	font-family: 'Arial';
 	font-style: normal;
@@ -523,4 +599,81 @@ span.glyphicon.glyphicon-remove{
 	background: #2aa6ff;
 	color: #ffffff;
 	text-decoration: none;
+}
+
+
+
+
+
+/** MEDIA QUERIES **/
+/* Extra small devices (phones, less than 768px) */
+@media(max-width: 768px) { 
+	
+	.search{		
+		width: 16.5em;
+		height: 3em;
+	}
+
+	/* PLACEHOLDER SEARCH */
+	::-webkit-input-placeholder{
+		font-size: 0.9em;
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+		font-size: 0.9em;
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+		font-size: 0.9em;  
+	}
+
+	:-ms-input-placeholder {  
+		font-size: 0.9em;
+	}
+
+	/* END PLACEHOLDER */
+
+	.tag-days{		
+		background: #0067b1;
+		color: #ffffff;
+		font-size: 0.9em;
+		font-family: Arial;
+		font-weight: bold;
+		text-align: center;	
+		line-height: 1.2;
+		margin-bottom: 0.9em;
+		margin-right: 0;
+		border-right: 3px solid #ffffff;
+	}
+
+	.download-button{		
+		padding: 0.7em 0.7em;
+		margin-bottom: 1em;
+		width: 12em;
+		text-align: center;
+	}
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) { 
+	
+	.search{		
+		width: 35em;
+		height: 3em;
+	}
+
+	.tag-days{		
+		background: #0067b1;
+		border-right: 3px solid #ffffff;
+		color: #ffffff;
+		font-size: 0.9em;
+		font-family: Arial;
+		font-weight: bold;
+		text-align: center;	
+		line-height: 1.2;
+		margin-bottom: 0.9em;
+		margin-right: 0;
+	}
+
 }
