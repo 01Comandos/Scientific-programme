@@ -633,6 +633,20 @@ div.modal-content{
 
 	/* END PLACEHOLDER */
 
+	#close-modal-phone{
+		border: 1px solid #898989;
+		background: none;
+		color: #898989;		
+		font-weight: bold;
+	}
+
+	#close-modal-phone:hover{
+		border: 1px solid #2aa6ff;
+		background: none;
+		color: #2aa6ff;		
+		font-weight: bold;
+	}
+
 	.tag-days{		
 		background: #0067b1;
 		color: #ffffff;
