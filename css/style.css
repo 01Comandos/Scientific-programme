@@ -700,6 +700,24 @@ div.modal-content{
 		height: 3em;
 	}
 
+	.activ{
+		line-height: 1;
+		padding-top: 0.8em;
+		height: 6em;
+	}
+
+	.activity-9{
+		width: 23em;
+	}
+
+	.activity-1, .activity-5, .activity-10{
+		width: 15em;
+	}
+
+	.activity-2, .activity-3, .activity-4, .activity-6, .activity-7, .activity-8{
+		width: 8em;
+	}
+
 	.tag-days{		
 		background: #0067b1;
 		border-right: 3px solid #ffffff;
