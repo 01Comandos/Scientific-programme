@@ -234,9 +234,9 @@ span.glyphicon.glyphicon-search:hover{
 	font-size: 0.9em;
 	font-family: Arial;
 	font-weight: bold;
-	padding: 0.8em 0.4em;
+	padding: 0.8em 0.3em;
 	text-align: center;
-	margin-right: 1em;
+	margin-right: 0.6em;
 	line-height: 1.2;
 }
 
@@ -244,8 +244,7 @@ span.glyphicon.glyphicon-search:hover{
 	background: #2aa6ff;
 }
 
-.hours-calendar{
-	position: relative;
+.hours-calendar-container{
 }
 
 .hours-calendar, .rooms{
@@ -256,12 +255,11 @@ span.glyphicon.glyphicon-search:hover{
 	padding-bottom: 2em;
 }
 
-/*.controls-calendar-right{
-	float: right;
-	position: absolute;
-	right: 6.5em;
-	top: 0;
-}*/
+.controls-calendar-left, .controls-calendar-right{
+	margin: 0;
+	width: 5em;
+}
+
 .controls-calendar-left a{
 	background: #c9c9c9;
 	color: #ffffff;
@@ -285,9 +283,11 @@ span.glyphicon.glyphicon-search:hover{
 .hours{
 	background: #e5e5e5;
 	color: #000000;
-	padding: 0.5em 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 	text-align: center;
 	border-bottom: 4px solid #d2d0d0;
+	margin: 0;
 }
 
 .hours span{
@@ -305,29 +305,28 @@ span.glyphicon.glyphicon-search:hover{
 	padding: 0.5em 0.3em;
 	text-align: center;
 	font-family: Arial;
-	font-size: 0.8em;
+	font-size: 11px;
 	font-weight: bold;
-
 	margin-top: 1.5em;
-	/*border-right: 0.6em solid #f6f5f5;*/
+	width: 5.5em;
 }
 
-.activid, .h-marg{
-	/*margin-left: 0.9em;*/
+.h-marg{
+	margin-left: 0.3em !important;
 }
-
 .activ{
 	background: #ffffff;
 	color: #434343;
 	text-align: center;
 	padding: 0.5em 0.5em;
 	height: 5em;
+	margin-left: 1em;
 }
 
 .activity-1{
 	border: 2px solid #a292b3;
 	border-radius: 0;
-	width: 25.4em;
+	width: 25em;
 }
 
 .activity-1:hover{
@@ -375,7 +374,7 @@ span.glyphicon.glyphicon-search:hover{
 
 .activity-5{
 	border: 2px solid #8094dd;
-	width: 25.4em;
+	width: 25em;
 }
 
 .activity-5:hover{
@@ -423,7 +422,7 @@ span.glyphicon.glyphicon-search:hover{
 
 .activity-9{
 	border: 2px solid #70d0ec;
-	width: 38.3em;
+	width: 37em;
 }
 
 .activity-9:hover{
@@ -435,7 +434,7 @@ span.glyphicon.glyphicon-search:hover{
 
 .activity-10{
 	border: 2px solid #4a9463;
-	width: 25.4em;
+	width: 25em;
 }
 
 .activity-10:hover{
@@ -577,8 +576,6 @@ div.modal-content{
 }
 
 
-
-
 /** BOTONES DE DESCARGAS */
 .download{
 	text-align: center;
@@ -632,6 +629,38 @@ div.modal-content{
 	}
 
 	/* END PLACEHOLDER */
+	.controls-calendar-left, .controls-calendar-right{
+		margin: 0;
+		width: 2.5em;
+	}
+
+	.room{
+	padding: 0.5em 0.3em;
+	margin-top: 1.5em;
+	margin-left: -1.2em;
+	width: 5.5em;
+	}
+
+	.activ{
+		padding-top: 0.8em;
+		width: auto;
+		height: 6em;
+		margin-left: 0;
+	}
+
+	.activity-9{
+		width: 24.5em;
+	}
+
+	.activity-1, .activity-5, .activity-10{
+		width: auto !important;
+	}
+
+	.activity-2, .activity-3, .activity-4, .activity-6, .activity-7, .activity-8{
+		width: auto;
+	}
+
+	/* MODAL */
 
 	#close-modal-phone{
 		border: 1px solid #898989;
@@ -700,18 +729,31 @@ div.modal-content{
 		height: 3em;
 	}
 
+	.controls-calendar-left, .controls-calendar-right{
+		margin: 0;
+		width: 3em;
+	}
+
+	.room{
+	padding: 0.5em 0.3em;
+	margin-top: 1.5em;
+	margin-left: -1.2em;
+	width: 5.5em;
+	}
+
 	.activ{
 		line-height: 1;
 		padding-top: 0.8em;
 		height: 6em;
+		margin-left: 0;
 	}
 
 	.activity-9{
-		width: 23em;
+		width: 24.5em;
 	}
 
 	.activity-1, .activity-5, .activity-10{
-		width: 15em;
+		width: 16em;
 	}
 
 	.activity-2, .activity-3, .activity-4, .activity-6, .activity-7, .activity-8{
@@ -750,5 +792,38 @@ div.modal-content{
 
 	.tag-activity-for-hours{
 		margin-left: 11em;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	.controls-calendar-left, .controls-calendar-right{
+		margin: 0;
+		width: 3em;
+	}
+
+	.room{
+	padding: 0.5em 0.3em;
+	margin-top: 1.5em;
+	margin-left: -1.2em;
+	width: 5.5em;
+	}
+
+	.activ{
+		line-height: 1;
+		padding-top: 0.8em;
+		height: 6em;
+		margin-left: 0;
+	}
+
+	.activity-9{
+		width: 30.5em;
+	}
+
+	.activity-1, .activity-5, .activity-10{
+		width: 20.6em;
+	}
+
+	.activity-2, .activity-3, .activity-4, .activity-6, .activity-7, .activity-8{
+		width: 10em;
 	}
 }
