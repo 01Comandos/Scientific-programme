@@ -665,9 +665,13 @@ footer{
 
 /** MEDIA QUERIES **/
 /* Extra small devices (phones, less than 768px) */
-@media(max-width: 768px) { 
+@media(max-width: 768px) {
 	#logotipe img{
 		width: 7em;
+	}
+
+	h1{
+		font-size: 2em;
 	}
 	
 	.search{		
@@ -693,16 +697,23 @@ footer{
 	}
 
 	/* END PLACEHOLDER */
+	.hours-calendar-container{
+	margin-left: 1.2em;
+	}
+
 	.controls-calendar-left, .controls-calendar-right{
 		margin: 0;
 		width: 2.5em;
 	}
 
 	.room{
-	padding: 0.5em 0.3em;
-	margin-top: 1.5em;
-	margin-left: -1.2em;
-	width: 5.5em;
+		padding: 0.5em 0.3em;
+		margin-top: 3.5em;
+		margin-left: -0.4em;
+		width: 5.5em;
+
+    	-webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    	transform: rotate(-90deg);
 	}
 
 	.activ{
@@ -713,15 +724,18 @@ footer{
 	}
 
 	.activity-9{
-		width: 24.5em;
+		width: 75%;
+		height: 7em;
 	}
 
 	.activity-1, .activity-5, .activity-10{
-		width: auto !important;
+		width: 50%;
+		height: 7em;
 	}
 
 	.activity-2, .activity-3, .activity-4, .activity-6, .activity-7, .activity-8{
-		width: auto;
+		width: 25%;
+		height: 7em;
 	}
 
 	/* MODAL */
@@ -774,8 +788,6 @@ footer{
 		margin: auto;
 	}
 
-	
-
 	.download-button{		
 		padding: 0.7em 0.7em;
 		margin-bottom: 1em;
@@ -796,16 +808,20 @@ footer{
 		height: 3em;
 	}
 
+	.hours-calendar-container{
+		margin-left: 0.5em;
+	}
+
 	.controls-calendar-left, .controls-calendar-right{
 		margin: 0;
 		width: 3em;
 	}
 
 	.room{
-	padding: 0.5em 0.3em;
-	margin-top: 1.5em;
-	margin-left: -1.2em;
-	width: 5.5em;
+		padding: 0.5em 0.3em;
+		margin-top: 1.5em;
+		margin-left: -0.5em;
+		width: 5.5em;
 	}
 
 	.activ{
@@ -816,15 +832,15 @@ footer{
 	}
 
 	.activity-9{
-		width: 24.5em;
+		width: 49.99999997%;
 	}
 
 	.activity-1, .activity-5, .activity-10{
-		width: 16em;
+		width: 33.3333333%;
 	}
 
 	.activity-2, .activity-3, .activity-4, .activity-6, .activity-7, .activity-8{
-		width: 8em;
+		width: 16.66666667%;
 	}
 
 	.tag-days{		
@@ -867,16 +883,20 @@ footer{
 		width: 13em;
 	}
 
+	.hours-calendar-container{
+		margin-left: 2em;
+	}
+
 	.controls-calendar-left, .controls-calendar-right{
 		margin: 0;
 		width: 3em;
 	}
 
 	.room{
-	padding: 0.5em 0.3em;
-	margin-top: 1.5em;
-	margin-left: -1.2em;
-	width: 5.5em;
+		padding: 0.5em 0.3em;
+		margin-top: 1.5em;
+		margin-left: 1.7em;
+		width: 5.5em;
 	}
 
 	.activ{
@@ -887,14 +907,14 @@ footer{
 	}
 
 	.activity-9{
-		width: 30.5em;
+		width: 29.7em;
 	}
 
 	.activity-1, .activity-5, .activity-10{
-		width: 20.6em;
+		width: 20em;
 	}
 
 	.activity-2, .activity-3, .activity-4, .activity-6, .activity-7, .activity-8{
-		width: 10em;
+		width: 9.7em;
 	}
 }
