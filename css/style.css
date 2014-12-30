@@ -32,16 +32,23 @@ h1{
 
 #logotipe{
 	text-align: center;
-	z-index: 15;
+	
+}
+
+.img-default{
+	padding: 0;
 }
 
 #logotipe img{
-	width: 16em;
+	box-shadow: 0px 5px 5px #545454;
+	position: relative;
+	z-index: 11;	
 }
 
 #img-background img{
-	width: 100%;
+	box-shadow: 0px 5px 5px #939393;
 	margin-top: -12em;
+	width: 100%;
 	z-index: 12;
 }
 
@@ -629,6 +636,9 @@ footer{
 /** MEDIA QUERIES **/
 /* Extra small devices (phones, less than 768px) */
 @media(max-width: 768px) { 
+	#logotipe img{
+		width: 7em;
+	}
 	
 	.search{		
 		width: 16.5em;
@@ -747,6 +757,9 @@ footer{
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 992px) { 
+	#logotipe img{
+		width: 10em;
+	}
 	
 	.search{		
 		width: 35em;
@@ -820,6 +833,10 @@ footer{
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
+	#logotipe img{
+		width: 13em;
+	}
+
 	.controls-calendar-left, .controls-calendar-right{
 		margin: 0;
 		width: 3em;
