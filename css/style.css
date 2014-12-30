@@ -28,10 +28,11 @@ h1{
 
 .container-general{
 	background: #ffffff;
+	box-shadow: 1px 2px 6px 2px #c9c9c9;
 }
 
 #logotipe{
-	text-align: center;
+	text-align: left;
 	
 }
 
@@ -40,7 +41,7 @@ h1{
 }
 
 #logotipe img{
-	box-shadow: 0px 5px 5px #545454;
+	box-shadow: 5px 5px 16px -1px #3e3e3e;
 	position: relative;
 	z-index: 11;	
 }
