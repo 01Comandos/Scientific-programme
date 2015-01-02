@@ -662,10 +662,147 @@ footer{
 
 
 
+/*************************************************
+************** MEDIA QUERIES ********************/
 
-/** MEDIA QUERIES **/
+/*PHONE SMALL */
+@media (min-width: 407px) and (max-width: 415px){
+	#logotipe img{
+		width: 7em;
+	}
+
+	h1{
+		font-size: 2em;
+	}
+	
+	.search{		
+		width: 16.5em;
+		height: 3em;
+	}
+
+	/* PLACEHOLDER SEARCH */
+	::-webkit-input-placeholder{
+		font-size: 0.9em;
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+		font-size: 0.9em;
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+		font-size: 0.9em;  
+	}
+
+	:-ms-input-placeholder {  
+		font-size: 0.9em;
+	}
+
+	/* END PLACEHOLDER */
+	.hours-calendar-container{
+	margin-left: 1.2em;
+	}
+
+	.controls-calendar-left, .controls-calendar-right{
+		margin: 0;
+		width: 2.5em;
+	}
+
+	.room{
+		padding: 0.5em 0.3em;
+		margin-top: 3.5em;
+		margin-left: -0.4em;
+		width: 5.5em;
+
+    	-webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    	transform: rotate(-90deg);
+	}
+
+	.activ{
+		padding-top: 0.8em;
+		width: auto;
+		height: 6em;
+		margin-left: 0;
+	}
+
+	.activity-9{
+		width: 75%;
+		height: 8em;
+	}
+
+	.activity-1, .activity-5, .activity-10{
+		width: 50%;
+		height: 8em;
+	}
+
+	.activity-2, .activity-3, .activity-4, .activity-6, .activity-7, .activity-8{
+		width: 25%;
+		height: 8em;
+	}
+
+	/* MODAL */
+
+	#close-modal-phone{
+		border: 1px solid #898989;
+		background: none;
+		color: #898989;		
+		font-weight: bold;
+	}
+
+	#close-modal-phone:hover{
+		border: 1px solid #2aa6ff;
+		background: none;
+		color: #2aa6ff;		
+		font-weight: bold;
+	}
+
+	.tag-days{		
+		background: #0067b1;
+		color: #ffffff;
+		font-size: 0.9em;
+		font-family: Arial;
+		font-weight: bold;
+		text-align: center;	
+		line-height: 1.2;
+		margin-bottom: 0.9em;
+		margin-right: 0;
+		border-right: 3px solid #ffffff;
+	}
+
+	.title-activity-modal{
+		width: 89%;
+		margin-left: 1.4em;
+	}
+
+	#tag-prof{
+		margin: auto;
+	}
+
+	.modal-detail-title{
+		width: 80%;
+		margin-left: 2.5em;
+	}
+	
+	.speaker{
+		margin-bottom: 0.7em;
+	}
+
+	.tag-activity-for-hours{
+		margin: auto;
+	}
+
+	.download-button{	
+		display: block;	
+		padding: 0.7em 0.7em;
+		margin-bottom: 1em;
+		text-align: center;
+		
+	}
+
+}
+
+
 /* Extra small devices (phones, less than 768px) */
-@media(max-width: 768px) {
+@media (min-width: 416px) and (max-width: 767px) {
 	#logotipe img{
 		width: 7em;
 	}
@@ -768,7 +905,7 @@ footer{
 	}
 
 	.title-activity-modal{
-		width: 93%;
+		width: 90%;
 		margin-left: 1.4em;
 	}
 
@@ -777,7 +914,8 @@ footer{
 	}
 
 	.modal-detail-title{
-		margin-left: 3em;
+		width: 82%;
+		margin-left: 2.5em;
 	}
 	
 	.speaker{
